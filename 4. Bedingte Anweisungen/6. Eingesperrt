@@ -1,0 +1,22 @@
+func checkSquare() {
+  if isOnGem {
+    collectGem()
+  } else if isOnClosedSwitch {
+    toggleSwitch()
+  }
+}
+
+func completeCorner() {
+  checkSquare()
+  moveForward()
+  checkSquare()
+  turnRight()
+  moveForward()
+}
+
+moveForward()
+turnRight()
+
+for i in 1...4 {
+  completeCorner()
+}
