@@ -1,0 +1,15 @@
+func collectTwoGems() {
+  collectGem()
+  moveForward()
+  collectGem()
+  moveForward()
+  turnRight()
+}
+
+collectTwoGems()
+collectTwoGems()
+collectTwoGems()
+collectGem()
+moveForward()
+turnRight()
+collectTwoGems()
