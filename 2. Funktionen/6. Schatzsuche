@@ -1,0 +1,23 @@
+func moveThenToggle() {
+  moveForward()
+  moveForward()
+  toggleSwitch()
+}
+
+func toggleThenReturn() {
+  moveThenToggle()
+  turnLeft()
+  turnLeft()
+  moveForward()
+  moveForward()
+}
+
+toggleThenReturn()
+toggleThenReturn()
+turnRight()
+moveThenToggle()
+toggleThenReturn()
+moveForward()
+moveForward()
+moveThenToggle()
+moveThenToggle()
