@@ -1,0 +1,16 @@
+func pickPlace() {
+  moveForward()
+  collectGem()
+  moveForward()
+  toggleSwitch()
+  moveForward()
+}
+
+pickPlace()
+turnLeft()
+pickPlace()
+moveForward()
+turnLeft()
+pickPlace()
+turnLeft()
+pickPlace()
