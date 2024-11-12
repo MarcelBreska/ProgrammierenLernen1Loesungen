@@ -1,0 +1,23 @@
+for i in 1...8 {
+  moveForward()
+  if isOnGem && isOnClosedSwitch {
+    turnRight()
+    moveForward()
+    moveForward()
+    collectGem()
+    turnLeft()
+    turnLeft()
+    moveForward()
+    moveForward()
+    turnRight()
+    collectGem()
+    toggleSwitch()
+  } else if isOnClosedSwitch {
+    turnLeft()
+    toggleSwitch()
+  }
+  
+  if isOnGem {
+    collectGem()
+  }
+}
