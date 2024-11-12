@@ -1,0 +1,21 @@
+func solveColumn() {
+  while !isBlocked {
+    if isOnClosedSwitch {
+      toggleSwitch()
+    } else if isOnGem {
+      collectGem()
+  }
+  
+  moveForward()
+  }
+}
+
+solveColumn()
+turnRight()
+moveForward()
+turnRight()
+solveColumn()
+turnLeft()
+moveForward()
+turnLeft()
+solveColumn()
