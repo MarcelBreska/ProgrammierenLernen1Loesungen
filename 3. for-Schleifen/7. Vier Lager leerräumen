@@ -1,0 +1,29 @@
+func turnAround() {
+  turnRight()
+  turnRight()
+}
+
+func collectFour() {
+  collectGem()
+  moveForward()
+  collectGem()
+  turnAround()
+  moveForward()
+  turnRight()
+  moveForward()
+  collectGem()
+  turnAround()
+  moveForward()
+  moveForward()
+  collectGem()
+}
+
+moveForward()
+
+for i in 1...3 {
+  collectFour()
+  moveForward()
+  moveForward()
+}
+
+collectFour()
