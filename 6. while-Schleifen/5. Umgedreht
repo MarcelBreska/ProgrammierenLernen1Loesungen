@@ -1,0 +1,12 @@
+moveForward()
+
+while isOnGem {
+  turnLeft()
+  collectGem()
+  moveForward()
+  collectGem()
+  turnLeft()
+  moveForward()
+  turnRight()
+  moveForward()
+}
